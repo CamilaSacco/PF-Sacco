@@ -1,0 +1,319 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/*INDEX*---------------------------------------------------------------------/
+
+/*Comienza el header*/
+.header{
+  background-color: #FAD7A0;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  }
+
+.logo{
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+ 
+}
+
+.titulo__header{
+  color: black;
+  font-size: 4rem;
+  padding-left: 10px;
+  
+}
+
+.menu{
+  display: flex;
+  padding-left: 400px;
+  
+}
+
+.anchor{
+  text-decoration: none;
+  color:white;
+  }
+
+
+
+.menu__item{
+  padding:10px;
+  border-radius: 5px;
+  font-size:1rem; 
+  background-color: black;
+}
+
+
+
+/*Fin header*/
+
+
+/*Comienza hero*/
+.hero{
+  background-image:url(../../img/Fondo__herook.jpg);
+  height: 500px;
+  width: 100%;
+  display:flex;
+  justify-content:center;
+  align-items: start;
+  flex-direction: column;
+
+}
+
+.subtitulo__hero{
+  font-size: 3rem;
+  padding-left: 3rem;
+
+}
+.slogan__hero{
+  font-size:2rem;
+  padding-left: 3rem;
+}
+
+
+.btn{
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border: 2px solid black; 
+padding:10px;
+margin-top: 10px;
+background-color: black;
+text-decoration: none;
+margin-left: 3rem;
+border-radius: 5px;
+
+}
+
+.btn:hover{
+  color:black;
+  background-color: #FAD7A0;
+  
+}
+
+.imagenes__inicio{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  padding: 15px;
+  text-align: center;
+ }
+
+
+
+.img__inicio{
+  width: 250px;
+  height: 400px;
+  border: 2px solid black;
+ 
+}
+
+/*Fin hero*/
+
+/*Comienza footer*/
+
+  
+
+footer{
+  background-color: #FAD7A0;
+  height:150px;
+  width: 100%;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items:center;
+  text-align: center;
+ }
+
+.redes, .redes_footer{
+  padding: 5px;
+}
+
+img, .logo_footer{
+  width: 60px;
+  height: 60px;
+
+}
+
+
+/*Fin footer*/    
+
+/*FIN INDEX*--------------------------------------------------------------------------*/
+
+/*COMIENZA VISTA PRODUCTOS*/
+
+/*HEADER*/
+.header__product{
+  height:10vh;
+  background: rgb(0,0,0);
+background: linear-gradient(305deg, rgba(0,0,0,0.7595413165266106) 0%, rgba(250,215,160,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.titulo__product{
+  padding: 10px;
+}
+
+/*FIN HEADER*/
+
+
+.foto__cake{
+  height:250px;
+  width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Formulario*/
+
+form{
+    margin: 10px;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ 
+li{
+    margin: 5px;
+    padding: 1px;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+
+ /*Fin formulario*/  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:320px){
+  .header{
+    flex-direction: column;
+    height: 200px;
+  }
+  
+  .logo{
+    height: 50px;
+    width: 50px;
+  }
+
+  .titulo__header{
+    font-size: 3rem;
+  }
+
+  .imagenes__inicio{
+    display: flex;
+    flex-direction:column;
+  }
+
+  .menu{
+  padding: 10px;
+  flex-direction:column;
+  }
+
+  .subtitulo__hero {
+  padding: 0; 
+  text-align: center;
+}
+
+.hero{
+  align-items: center;
+
+}
+
+.slogan__hero{
+  padding:0;
+}
+
+.btn{
+  margin-left: 0;
+}
+
+footer{
+  height:250px;
+}
+}
+
+@media screen and (max-width:768px){
+  .header{
+    justify-content: space-evenly;
+
+  }
+  .logo{
+    height: 60px;
+    width: 60px;
+  }
+
+  .titulo__header{
+    font-size:3rem;
+    padding-left: 0;
+  }
+
+  .menu{
+    padding-left: 0;
+}
+
+.hero{
+  background-position: center;
+}
+
+.imagenes__inicio{
+  display: flex;
+  flex-direction:column;
+}
+}
+
+
+  
+
