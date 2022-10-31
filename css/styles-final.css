@@ -1,0 +1,188 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+/*----NAVBAR-----*/
+nav.navbar {
+  background-color: #FAD7A0; }
+
+.navbar-brand {
+  padding: 1rem;
+  font-size: 2rem; }
+
+.logo__navbar {
+  width: 60px;
+  height: 60px; }
+
+/*----NAVBAR----*/
+/*-----ANIMACIONES----*/
+.rotate-center {
+  -webkit-animation: rotate-center 2s ease-in-out both;
+  animation: rotate-center 2s ease-in-out both; }
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+.fade-in-right {
+  -webkit-animation: fade-in-right 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in-right 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+
+@-webkit-keyframes fade-in-right {
+  0% {
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1; } }
+
+@keyframes fade-in-right {
+  0% {
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1; } }
+
+/*Comienza hero*/
+.hero {
+  background-image: url(../../img/Fondo__herook.jpg);
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column; }
+
+.subtitulo__hero {
+  font-size: 3rem;
+  padding-left: 3rem; }
+
+.slogan__hero {
+  font-size: 2rem;
+  padding-left: 3rem; }
+
+.btn {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: black;
+  text-decoration: none;
+  margin-left: 3rem;
+  border-radius: 5px; }
+  .btn:hover {
+    color: black;
+    background-color: #FAD7A0; }
+
+.imagenes__inicio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  padding: 15px;
+  text-align: center; }
+
+.img__inicio {
+  width: 250px;
+  height: 400px;
+  border: 2px solid black; }
+
+/*Fin hero*/
+.foto__cake {
+  height: 300px;
+  width: 260px;
+  border-radius: 10px; }
+
+.foto__cafe {
+  height: 300px;
+  width: 260px;
+  border-radius: 10px; }
+
+.nombre__cake {
+  padding: 20px;
+  background-color: #FAD7A0;
+  margin-top: 10px;
+  border-radius: 10px; }
+
+.info__cake {
+  text-align: start;
+  font-size: 1rem; }
+
+.nombre__cafe {
+  padding: 20px;
+  background-color: #FAD7A0;
+  margin-top: 10px;
+  border-radius: 10px; }
+
+.info__cafe {
+  text-align: start;
+  font-size: 1rem; }
+
+/*----CARROUSEL-----*/
+.img__carrousel {
+  width: 100%;
+  height: 500px; }
+
+.carrousel-item {
+  height: 500px; }
+
+.pasteleria {
+  position: absolute;
+  left: 50%;
+  top: 82%;
+  font-size: 4rem; }
+
+.carousel slide {
+  position: relative; }
+
+/*Comienza footer*/
+footer {
+  background-color: #FAD7A0;
+  height: 250px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  text-align: center; }
+
+.footer__logo {
+  width: 60px;
+  height: 60px; }
+
+.redes {
+  width: 60px;
+  height: 60px;
+  padding: 10px; }
+
+/*Fin footer*/
+.fotos-Nosotros {
+  height: 100%;
+  width: 100%;
+  margin-top: 2rem; }
+
+.sobre-nosotros {
+  margin-top: 3rem;
+  text-align: center; }
+
+.main-nosotros {
+  background: #ffeded;
+  background: linear-gradient(114deg, rgba(255, 237, 237, 0.546656) 37%, #fad7a0 100%); }

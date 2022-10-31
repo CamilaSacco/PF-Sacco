@@ -1,11 +1,11 @@
-link<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <link rel="stylesheet"  href="../estilos/css/estilos.css">
+  <link rel="stylesheet"  href="../css/styles-final.css">
   <title>Grandeliccia | Productos</title>
   <link rel="icon" href="../img/coffee-cup.png"">
   <link rel="preconectar" href="https://fonts.googleapis.com">
@@ -14,6 +14,7 @@ link<!DOCTYPE html>
 </head>
 
 <body>
+<header>
   <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
     <img class="logo__navbar rotate-center" src="../img/coffee-cup.png" alt="logo">
@@ -43,8 +44,9 @@ link<!DOCTYPE html>
       </div>
     </div>
   </nav>
-
+</header>
  
+<main>
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -83,7 +85,7 @@ link<!DOCTYPE html>
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  
+
   
   <section  class="container text-center">
     <div class="row">
@@ -135,9 +137,9 @@ link<!DOCTYPE html>
     <img class="foto__cake" src="../img/Productos/redvelvet1 (2).jpg" alt="">
     <p class="info__cake">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam aperiam soluta eos placeat? Voluptatum ullam dicta laborum expedita nobis vel vero sit numquam. Nulla ullam hic voluptatum quaerat ea exercitationem?</p>
   </div>
-</div>
+ </div>
 
-</section>
+ </section>
 
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
   <div class="carousel-indicators">
@@ -179,8 +181,8 @@ link<!DOCTYPE html>
 </div>
 
 
-  <section class="container text-center">
-    <div class="row">
+<section class="container text-center">
+  <div class="row">
 
 <div class="col-md-6 col-xl-3">
   <h4 class="nombre__cafe">Café negro</h4>
@@ -231,26 +233,30 @@ link<!DOCTYPE html>
   </div>
 
 </section>
+</main>
 
 <footer>
-<div>
-<img class="logo_footer" src="../img/coffee-cup.png" alt="">
-</div>
+        <div>
+          <p>Grandeliccia</p>
+          <img class="footer__logo" src="../img/coffee-cup.png" alt="">
+        </div>
 
-  <div class="redes_footer">
-    <p><strong>Nuestras Redes</strong></p>
-    <a href="#"> <img class="redes" src="../img/facebook.png" alt=""></a> 
-    <a href="#"> <img class="redes" src="../img/instagram.png" alt=""></a>
-    <a href="#"> <img class="redes" src="../img/whatsapp.png" alt=""></a>
-  </div>
+        <div>
+          <p><strong>Nuestras Redes</strong></p>
+          <ul>
+            <li> <a href="#"> <img class="redes" src="../img/facebook.png" alt=""></a> </li>
+            <li> <a href="#"> <img class="redes" src="../img/instagram.png" alt=""></a></li>
+            <li> <a href="#"> <img class="redes" src="../img/whatsapp.png" alt=""></a></li>
+          </ul>
+        </div>
 
-  <div class="sucursales">
-    <p class=""><strong>Dónde Encontrarnos</strong></p>
-    <ul>
-      <li>Oroño 896 - Rosario</li>
-      <li>Corrientes 1489 - Buenos Aires</li>
-    </ul>
-</div>
+        <div>
+          <p><strong>Dónde Encontrarnos</strong></p>
+          <ul>
+            <li>Oroño 896 - Rosario</li>
+            <li>Corrientes 1489 - Buenos Aires</li>
+          </ul>
+      </div>
 </footer>
   
   
