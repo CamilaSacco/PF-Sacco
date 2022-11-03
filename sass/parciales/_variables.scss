@@ -1,0 +1,24 @@
+$colorgeneral: #f3ddba;
+
+@mixin tamañologo {
+    width: 60px;
+    height: 60px;
+}
+
+@mixin fotoproductos {
+    height: 300px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+@mixin nombreproductos {
+    padding: 20px;
+    background-color: $colorgeneral;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+@mixin infoproducto {
+    text-align: start;
+    font-size: 1rem;
+}

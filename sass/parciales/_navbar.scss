@@ -1,6 +1,6 @@
 /*----NAVBAR-----*/
 nav.navbar {
-    background-color: #FAD7A0;
+    background-color: $colorgeneral;
 }
 
 .navbar-brand {
@@ -10,7 +10,7 @@ nav.navbar {
 }
 
 .logo__navbar {
-    width: 60px;
-    height: 60px;
+    @include tamañologo;
 }
+
 /*----NAVBAR----*/

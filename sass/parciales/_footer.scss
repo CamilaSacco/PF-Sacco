@@ -1,7 +1,7 @@
 /*Comienza footer*/
 footer {
-    background-color: #FAD7A0;
-    height: 250px;
+    background-color: $colorgeneral;
+    height: 150px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -11,23 +11,23 @@ footer {
 }
 
 .footer__logo {
-    width: 60px;
-    height: 60px;
+    @include tamañologo;
 }
 
 .redes {
     width: 60px;
     height: 60px;
     padding: 10px;
+    text-align: center;
 }
 
-li {
-    text-decoration: none;
+ul {
+    list-style-type: none;
+    display: flex;
 }
 
-.footer__list {
-    display: inline;
-}
+
+
 
 
 
