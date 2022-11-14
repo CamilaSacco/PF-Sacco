@@ -48,6 +48,7 @@
     &__imagenes {
         width: 250px;
         height: 400px;
+        object-fit: cover;
         border: 5px solid $colorgeneral;
         border-radius: 3px;
     }
