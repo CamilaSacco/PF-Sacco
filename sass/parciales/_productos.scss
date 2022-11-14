@@ -26,15 +26,3 @@
 .containerproductos {
     background-color: opacify($color: #f3e5d5, $amount: .2);
 }
-
-.portada {
-    position: relative;
-}
-
-.portada__titulo {
-    position: absolute;
-    left: 1000px;
-    bottom: 20px;
-    font-size: 4rem;
-    color: white;
-}

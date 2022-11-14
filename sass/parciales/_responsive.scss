@@ -60,7 +60,7 @@
 
 /* Formulario */
 
-@media (max-width:320px) {
+@media screen and (max-width:320px) {
     form {
         width: 100%;
     }
@@ -96,5 +96,18 @@
             font-size: 4rem;
             text-align: center;
         }
+    }
+}
+
+/* productos */
+@media screen and (max-width:320px) {
+    .portada__foto {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .portada__foto {
+        width: 100%;
     }
 }

@@ -85,7 +85,7 @@ nav.navbar {
 
 /*Comienza hero*/
 .hero {
-  background-image: url(../imgbackground/Fondoherook.jpg);
+  background-image: url(../../img/portadas/Fondoherook.jpg);
   height: 500px;
   width: 100%;
   display: flex;
@@ -160,16 +160,6 @@ nav.navbar {
 .containerproductos {
   background-color: #f3e5d5; }
 
-.portada {
-  position: relative; }
-
-.portada__titulo {
-  position: absolute;
-  left: 1000px;
-  bottom: 20px;
-  font-size: 4rem;
-  color: white; }
-
 /*Comienza footer*/
 footer {
   background-color: #f3ddba;
@@ -217,7 +207,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../../imgbackground/fondoclientes.jpg); }
+  background-image: url(../../img/portadas/fondoclientes.jpg); }
   .clientes__contacto {
     position: absolute;
     color: white;
@@ -302,7 +292,7 @@ textarea {
     grid-gap: 0; } }
 
 /* Formulario */
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   form {
     width: 100%; } }
 
@@ -325,6 +315,15 @@ textarea {
     .clientes__contacto {
       font-size: 4rem;
       text-align: center; } }
+
+/* productos */
+@media screen and (max-width: 320px) {
+  .portada__foto {
+    width: 100%; } }
+
+@media screen and (max-width: 1024px) {
+  .portada__foto {
+    width: 100%; } }
 
 #galeria .col-lg-4 {
   margin: 0;
